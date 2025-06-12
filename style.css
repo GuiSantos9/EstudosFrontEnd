@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+.container {
+    font-size: medium; /*Tamanho da fonte dos elementos do container*/
+    color:rgb(255, 253, 253);    /*Cor de Todos os elementos do container*/
+    background-color: black; /*Cor do fundo da div*/
+    margin-top: 10px;  /*Margem entre o topo e a div*/
+    margin-left: 10px;
+
+    border-radius: 30px; /*Borda do containe*/
+    width: 48%;            /* ocupa 45% para sobrar espaço entre as duas divs */
+    padding: 20px;
+    float: left;           /* faz a div flutuar à esquerda, permitindo outra ao lado */
+    box-sizing: border-box;
+}
+
